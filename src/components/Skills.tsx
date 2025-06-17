@@ -10,6 +10,7 @@ import { Card, CardContent } from './ui/card'
 import { Badge } from "./ui/badge"
 import { Github } from 'lucide-react';
 
+
   const skills = [
     { name: "React", icon: Atom, category: "Frontend" },
     { name: "TypeScript", icon: Code, category: "Language" },
