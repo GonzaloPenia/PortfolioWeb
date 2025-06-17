@@ -19,7 +19,7 @@ import { Github } from 'lucide-react'
       description: "Aplicación de calendario tipo PWA con capacidad offline. Permite a los usuarios registrarse e iniciar sesión para gestionar su calendario y organizar sus actividades. Incluye autenticación, CRUD de eventos y sincronización en segundo plano. Optimizada con Service Workers para cargar recursos estáticos desde caché. Implementación de persistencia de datos en modo offline usando IndexedDB y re-sincronización al recuperar conexión.",
       tech: ["React", "Node.js", "Socket.io", "MongoDB"],
       image: "/MapsApp3-4.jpg",
-      github: "#",
+      github: "https://github.com/GonzaloPenia/ReactCalendarFrontend",
       live: "#",
     },
     {
@@ -27,7 +27,7 @@ import { Github } from 'lucide-react'
       description: "Aplicación interactiva de mapas con búsqueda de direcciones, marcadores personalizados y rutas. Permite al usuario visualizar el camino para llegar al lugar deseado teniendo en cuenta su ubicacion actual. Integra API de Mapbox para visualización en tiempo real y almacena historial de búsquedas. Manejo de geolocalización y manejo de estados complejos con Context API.",
       tech: ["Next.js", "OpenAI API", "Tailwind CSS", "Supabase"],
       image: "/MapsApp3-4.jpg",
-      github: "#",
+      github: "https://github.com/GonzaloPenia/ReactADV",
       live: "#",
     },
   ]
@@ -37,7 +37,6 @@ import { Github } from 'lucide-react'
 export const Projects = () => {
   return (
     <>
-          {/* Projects Section */}
       <section id="projects" className="py-20 bg-muted/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
