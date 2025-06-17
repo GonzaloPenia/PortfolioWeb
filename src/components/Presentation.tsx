@@ -22,7 +22,14 @@ export const Presentation = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               
-              <Button size="lg">
+              <Button size="lg" onClick={() => {
+                const link = document.createElement('a');
+                link.href = '/CV-GonzaloPeña.pdf';
+                link.download = 'CV-GonzaloPeña.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}>
                 <Download className="mr-2 h-4 w-4" />
                 Descarga mi CV.
               </Button>
