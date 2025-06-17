@@ -1,7 +1,22 @@
 import { X } from 'lucide-react'
-
+import { useScrollTo } from '../helpers/useScrollTo'
 
 export const Navigator = () => {
+  const { scrollToSection, activeSection } = useScrollTo();
+
+  const navigationItems = [
+    { label: "Home", id: "home" },
+    { label: "Sobre mí", id: "sobre-mi" },
+    { label: "Skills", id: "skills" },
+    { label: "Projectos", id: "proyectos" },
+    { label: "Experiencia", id: "experiencia" },
+    { label: "Contacto", id: "contacto" }
+  ];
+
+  const handleNavigationClick = (sectionId: string) => {
+    scrollToSection(sectionId);
+  };
+
   return (
     <>
     {/* Navigation */}
@@ -12,12 +27,15 @@ export const Navigator = () => {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
-              {["Home", "Sobre mí", "Skills", "Projectos", "Experiencia", "Contacto"].map((item) => (
+              {navigationItems.map((item) => (
                 <button
-                  key={item}
-                  className={`text-sm font-medium transition-colors hover:text-primary `}
+                  key={item.id}
+                  onClick={() => handleNavigationClick(item.id)}
+                  className={`text-sm font-medium transition-colors hover:text-primary cursor-pointer ${
+                    activeSection === item.id ? 'text-primary' : 'text-muted-foreground'
+                  }`}
                 >
-                  {item}
+                  {item.label}
                 </button>
               ))}
             </div>

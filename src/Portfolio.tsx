@@ -8,12 +8,24 @@ export default function Portfolio() {
     <div className="min-h-screen bg-background">
       
       <Navigator />
-      <Presentation />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <section id="home" className="pt-16">
+        <Presentation />
+      </section>
+      <section id="sobre-mi" className="pt-16">
+        <AboutMe />
+      </section>
+      <section id="skills" className="pt-16">
+        <Skills />
+      </section>
+      <section id="proyectos" className="pt-16">
+        <Projects />
+      </section>
+      <section id="experiencia" className="pt-16">
+        <Experience />
+      </section>
+      <section id="contacto" className="pt-16">
+        <Contact />
+      </section>
       <Footer />
 
     </div>

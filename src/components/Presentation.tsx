@@ -23,13 +23,10 @@ export const Presentation = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               
               <Button size="lg">
-                Algunos de mis projectos.
-              </Button>
-              
-              <Button variant="outline" size="lg">
                 <Download className="mr-2 h-4 w-4" />
                 Descarga mi CV.
               </Button>
+              
 
             </div>
             <div className="flex justify-center space-x-6 mt-8">
