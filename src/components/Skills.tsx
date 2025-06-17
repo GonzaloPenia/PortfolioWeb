@@ -1,7 +1,5 @@
 import {
   Code,
-  Palette,
-  Smartphone,
   Server,
   Database,
   Globe,
