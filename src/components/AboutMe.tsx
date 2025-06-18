@@ -36,7 +36,7 @@ export const AboutMe = () => {
                 metas individuales como para contribuir al equipo.
               </p>
               <p className="text-lg leading-relaxed">
-                Hoy a mis 27 años encuentro realizando trabajos de manera freelance y estudiando en la Universidad Tencológica Nacional.
+                Hoy a mis 27 años encuentro realizando trabajos de manera freelance y estudiando en la Universidad Tecnológica Nacional.
               </p>
 
             </div>
