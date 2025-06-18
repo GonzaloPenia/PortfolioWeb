@@ -9,7 +9,7 @@ import { Github } from 'lucide-react'
       title: "Journal-App",
       description:
         "Aplicación de diario personal para tomar notas relevantes desarrollada con React, JavaScript y Firebase. Permite a los usuarios crear, editar y organizar entradas con autenticación segura empleando inicio de sesión y registro con cuentas de Google, carga de imágenes y CRUD de las notas. Implementa Redux para gestión de estado y SASS para estilos modularizados.",
-      tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+      tech: [ "React", "TypeScript", "JavaScript", "Firebase", "ReactRouter"],
       image: "/JournalApp4-3.jpg",
       github: "https://github.com/GonzaloPenia/U17-JournalApp",
       live: "#",
@@ -17,7 +17,7 @@ import { Github } from 'lucide-react'
     {
       title: "Calendar-App",
       description: "Aplicación de calendario tipo PWA con capacidad offline. Permite a los usuarios registrarse e iniciar sesión para gestionar su calendario y organizar sus actividades. Incluye autenticación, CRUD de eventos y sincronización en segundo plano. Optimizada con Service Workers para cargar recursos estáticos desde caché. Implementación de persistencia de datos en modo offline usando IndexedDB y re-sincronización al recuperar conexión.",
-      tech: ["React", "Node.js", "Socket.io", "MongoDB"],
+      tech: ["React", "TypeScript", "JavaScript", "Node.js", "MongoDB", "ReactRouter"],
       image: "/CalendarApp4-3.jpg",
       github: "https://github.com/GonzaloPenia/ReactCalendarFrontend",
       live: "#",
@@ -25,7 +25,7 @@ import { Github } from 'lucide-react'
     {
       title: "Maps-App",
       description: "Aplicación interactiva de mapas con búsqueda de direcciones, marcadores personalizados y rutas. Permite al usuario visualizar el camino para llegar al lugar deseado teniendo en cuenta su ubicacion actual. Integra API de Mapbox para visualización en tiempo real y almacena historial de búsquedas. Manejo de geolocalización y manejo de estados complejos con Context API.",
-      tech: ["Next.js", "OpenAI API", "Tailwind CSS", "Supabase"],
+      tech: ["React", "TypeScript", "JavaScript"],
       image: "/MapsApp3-4.jpg",
       github: "https://github.com/GonzaloPenia/ReactADV",
       live: "#",
