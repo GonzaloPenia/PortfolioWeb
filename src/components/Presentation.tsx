@@ -24,8 +24,8 @@ export const Presentation = () => {
               
               <Button size="lg" onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/CV-GonzaloPeña.pdf';
-                link.download = 'CV-GonzaloPeña.pdf';
+                link.href = '/CV GonzaloPena-DevFullstackJunior.pdf';
+                link.download = 'CV GonzaloPena-DevFullstackJunior.pdf';
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
