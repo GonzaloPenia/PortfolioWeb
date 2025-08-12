@@ -5,10 +5,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 const experience = [
     {
       title: "Junior FullStack Developer",
-      company: "Freelance",
+      company: "Byte",
       period: "03/25 – Actualidad.",
       description:
-        "Desarrollo de sitios web y aplicaciones web a medida. Implementación de bases de datos relacionales y no relacionales dependiendo los requerimientos. Gestión de proyectos, comunicación directa con clientes y entrega de soluciones optimizadas.",
+        "Desarrollo y mantenimiento de sitios web y aplicaciones web a medida. Implementación de bases de datos relacionales y no relacionales dependiendo los requerimientos. Gestión de proyectos, comunicación directa con clientes, entendimiento de los requerimientos y entrega de soluciones optimizadas.",
     },
     {
       title: "Servicio Téc. de Computación - Tecnico en Electrónica",
